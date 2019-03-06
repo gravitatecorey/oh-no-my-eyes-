@@ -1,0 +1,1 @@
+# Create a Chrome extension to modify a websites brightness so my roomate Jordan stops complaining.

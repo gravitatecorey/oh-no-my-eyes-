@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Oh No My EYES!",
+  "version": "0.1.0",
+  "description": "Chrome extension to decrease the brightness of websites for nightime browsing",
+  "permissions": ["tabs", "*://*.facebook.com/*"],
+"browser_action": {},
+"icons": { "32": "on.png",
+           "32": "off.png",
+          "128": "myeyes.png" },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["background.js"],
+    "matches": ["*://*.facebook.com/*"]
+  }]
+
+}
