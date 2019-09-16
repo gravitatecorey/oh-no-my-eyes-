@@ -17,7 +17,7 @@ chrome.browserAction.onClicked.addListener(function (tab) {
  if(enable){
   //turn on...
   chrome.browserAction.setIcon({ path: 'on.png' });
-  chrome.browserAction.setBadgeText({ text: 'ON' });
+  chrome.browserAction.setBadgeText({ text: 'OFF' });
   chrome.tabs.executeScript(null, { file: 'styles.css' }); 
  }else{
   //turn off...
